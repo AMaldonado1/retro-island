@@ -75,6 +75,9 @@ public class RetroIsland
         // Register the Deferred Register to the mod event bus so tabs get registered
         CREATIVE_MODE_TABS.register(modEventBus);
 
+        //Retro Island block register
+        ModBlocks.RETRO_ISLAND_BLOCKS.register(modEventBus);
+
         // Register ourselves for server and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);
 

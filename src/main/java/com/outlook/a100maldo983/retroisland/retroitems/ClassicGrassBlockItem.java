@@ -1,10 +1,13 @@
 package com.outlook.a100maldo983.retroisland.retroitems;
 
+import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 
-public class ClassicGrassBlockItem extends Item {
+import static com.outlook.a100maldo983.retroisland.ModBlocks.CLASSIC_GRASS_BLOCK;
+
+public class ClassicGrassBlockItem extends BlockItem {
     public ClassicGrassBlockItem() {
-        super();
+        super(CLASSIC_GRASS_BLOCK.get(), new Item.Properties());
     }
 
 }

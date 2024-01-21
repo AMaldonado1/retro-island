@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "retroisland:block/classic_grass_block"
+  }
+}

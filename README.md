@@ -19,8 +19,8 @@ Welcome to Retro Island, a Minecraft mod that transports you back to the early d
 - Explore the island to relive the classic Minecraft feel.
 
 ## Compatibility
-- Minecraft Version: (specify version, e.g., 1.16.4)
-- Forge Version: (specify version)
+- Minecraft Version: 1.20.2
+- Forge Version: 48.1.0
 
 ## License
 This project is licensed under the (specify license, e.g., MIT License). See `LICENSE` for more details.

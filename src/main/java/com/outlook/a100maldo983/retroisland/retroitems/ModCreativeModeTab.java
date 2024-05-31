@@ -18,6 +18,7 @@ public class ModCreativeModeTab {
                     .title(Component.translatable("creativetab.retroisland"))
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModItems.CLASSIC_GRASS_ITEM_BLOCK.get());
+                        output.accept(ModItems.CLASSIC_MISSING_TEXTURE_ITEM_BLOCK.get());
                     })
                     .build());
 

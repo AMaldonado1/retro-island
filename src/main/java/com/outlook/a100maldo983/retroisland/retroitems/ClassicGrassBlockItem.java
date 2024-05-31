@@ -9,5 +9,4 @@ public class ClassicGrassBlockItem extends BlockItem {
     public ClassicGrassBlockItem() {
         super(CLASSIC_GRASS_BLOCK.get(), new Item.Properties());
     }
-
 }

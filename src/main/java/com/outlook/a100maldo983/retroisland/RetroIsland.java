@@ -90,6 +90,7 @@ public class RetroIsland
     {
         if (event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
             event.accept(ModItems.CLASSIC_GRASS_ITEM_BLOCK);
+            event.accept(ModItems.CLASSIC_MISSING_TEXTURE_ITEM_BLOCK);
         }
     }
 

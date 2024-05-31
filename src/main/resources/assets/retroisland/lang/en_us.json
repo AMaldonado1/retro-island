@@ -1,4 +1,5 @@
 {
   "creativetab.retroisland": "Retro Island",
-  "block.retroisland.classic_grass_block": "Classic Grass Block"
+  "block.retroisland.classic_grass_block": "Classic Grass Block",
+  "block.retroisland.classic_missing_texture_block": "Classic Missing Texture Block"
 }

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "retroisland:block/classic_missing_texture_block"
+  }
+}

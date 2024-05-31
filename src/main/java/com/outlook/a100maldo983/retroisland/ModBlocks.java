@@ -1,6 +1,7 @@
 package com.outlook.a100maldo983.retroisland;
 
 import com.outlook.a100maldo983.retroisland.retroblocks.ClassicGrassBlock;
+import com.outlook.a100maldo983.retroisland.retroblocks.ClassicMissingTextureBlock;
 import net.minecraft.world.level.block.Block;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -11,6 +12,9 @@ import static com.outlook.a100maldo983.retroisland.RetroIsland.MODID;
 public class ModBlocks {
     public static final DeferredRegister<Block> RETRO_ISLAND_BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, MODID);
 
-    public static final RegistryObject<Block> CLASSIC_GRASS_BLOCK = RETRO_ISLAND_BLOCKS.register("classic_grass_block", ClassicGrassBlock::new);
+    public static final RegistryObject<Block> CLASSIC_GRASS_BLOCK = RETRO_ISLAND_BLOCKS.register(
+            "classic_grass_block", ClassicGrassBlock::new);
 
+    public static final RegistryObject<Block> CLASSIC_MISSING_TEXTURE_BLOCK = RETRO_ISLAND_BLOCKS.register(
+            "classic_missing_texture_block", ClassicMissingTextureBlock::new);
 }
